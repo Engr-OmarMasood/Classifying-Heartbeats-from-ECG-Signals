@@ -99,38 +99,6 @@ The model is trained using mini-batch gradient descent with momentum. Three lear
 - Matplotlib
 - Streamlit
 
-## 📂 Project Structure
-
-```text
-ECG-Heartbeat-Classification/
-│
-├── data/
-│   ├── mitbih_train.csv
-│   └── mitbih_test.csv
-│
-├── src/
-│   ├── prepare.py
-│   ├── model.py
-│   ├── grad_check.py
-│   ├── train.py
-│   ├── metrics.py
-│   └── test_model.py
-│
-├── results/
-│   ├── example_beats.png
-│   ├── learning_rate_comparison.png
-│   ├── loss_curves.png
-│   ├── accuracy_curves.png
-│   ├── confusion_matrix.png
-│   └── best_model.pth
-│
-├── app/
-│   └── app.py
-│
-├── README.md
-└── requirements.txt
-```
-
 ## 🚀 Installation and Setup
 
 ### 1. Clone the repository
@@ -247,6 +215,9 @@ The project investigates six important questions:
 - Explore CNN-based ECG classification.
 - Improve the Streamlit interface.
 - Investigate real-time ECG signal classification.
+- 
+##Web Interface
+<img width="1708" height="717" alt="image" src="https://github.com/user-attachments/assets/e6e52b8a-c3ef-4b4a-9e98-5b3f2828dbb0" />
 
 ## 🏁 Conclusion
 
@@ -258,7 +229,7 @@ The project also highlights the importance of handling imbalanced datasets when 
 
 ## 👨‍💻 Author
 
-**Okasha Saif Ahsan**
+Omar Masood Ahsan
 
 Electrical Engineering | Machine Learning | Embedded Systems
 
